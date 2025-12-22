@@ -82,3 +82,14 @@ We utilize **Grad-CAM (Gradient-weighted Class Activation Mapping)** to generate
 </p>
 
 ---
+## ⚙️ Implementation & Usage
+
+This repository is designed with modularity in mind, allowing researchers to either use the pretrained weights or retrain the backbone on custom agricultural datasets.
+
+### 1. Environment Setup
+To ensure reproducibility, we recommend using a virtual environment (Python 3.8+).
+
+```bash
+git clone [https://github.com/ItsCodeBakery/PlantPathology.git](https://github.com/ItsCodeBakery/PlantPathology.git)
+cd PlantPathology
+pip install -r requirements.txt
