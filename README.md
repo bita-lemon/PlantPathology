@@ -479,19 +479,7 @@ We thank the creators of the PlantVillage and Cassava Leaf datasets for making t
 
 ---
 
-## 📄 Citation
 
-If you use this code or methodology in your research, please cite our paper (currently under review):
-
-```bibtex
-@article{plantclr2025,
-  title={PlantCLR: Leveraging Self-Supervised Contrastive Learning for Generalizable Plant Disease Detection},
-  author={[Authors - To be added upon acceptance]},
-  journal={Under Review},
-  year={2025},
-  note={Code: https://github.com/ItsCodeBakery/PlantPathology}
-}
-```
 
 ---
 
@@ -500,8 +488,8 @@ If you use this code or methodology in your research, please cite our paper (cur
 For questions, issues, or collaboration opportunities:
 
 - **GitHub Issues**: [Create an issue](https://github.com/ItsCodeBakery/PlantPathology/issues)
-- **Email**: [Contact information - to be added]
-- **Pull Requests**: Contributions welcome!
+- **Email**: shayan.ali@imsciences.edu.pk
+
 
 ---
 
@@ -543,12 +531,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
----
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ItsCodeBakery/PlantPathology&type=Date)](https://star-history.com/#ItsCodeBakery/PlantPathology&Date)
 
 ---
 
