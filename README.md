@@ -42,3 +42,43 @@ $$
 *Where $\text{sim}(u, v)$ denotes cosine similarity and $\tau$ represents the temperature parameter.*
 
 ---
+## 📊 Experimental Results & Interpretability
+
+The **PlantCLR** framework was rigorously evaluated on the PlantVillage and Cassava Leaf datasets. Our results demonstrate that self-supervised pretraining significantly enhances the model's ability to cluster diseased states and localize pathogenic lesions.
+
+### 📈 Performance Metrics
+Our hybrid ConvNeXt-based approach achieves state-of-the-art results in classification accuracy and feature separation.
+
+| Metric | Achievement | Visualization |
+| :--- | :--- | :--- |
+| **Accuracy** | **99.X%** | [Training Curves](#-accuracy--loss-curve) |
+| **Separability** | **High Cluster Density** | [t-SNE Embeddings](#-t-sne-visualization) |
+| **Robustness** | **Optimal ROC-AUC** | [ROC Curves](#-output-visualizations) |
+
+### 🔍 Interpretability & Visual Analysis
+A critical requirement for agricultural deployment is ensuring the model identifies actual disease markers rather than background artifacts.
+
+#### ✅ Confusion Matrix
+The confusion matrix confirms minimal inter-class leakage, even among visually similar symptoms (e.g., different types of leaf spots).
+<p align="center">
+  <img src="https://github.com/ItsCodeBakery/PlantPathalogy/raw/main/Plots/PL_CS.png" alt="Confusion Matrix" width="600"/>
+</p>
+
+#### 🌀 Feature Space: t-SNE Visualization
+Using t-SNE (t-Distributed Stochastic Neighbor Embedding), we visualize the high-dimensional latent space. Notice how the self-supervised pretraining forces distinct diseases into well-defined clusters before a single label is even seen.
+<p align="center">
+  <img src="https://github.com/ItsCodeBakery/PlantPathalogy/raw/main/Plots/PL_tSNE.png" alt="t-SNE Plot" width="600"/>
+</p>
+
+#### 📈 Learning Dynamics: Accuracy & Loss
+<p align="center">
+  <img src="https://github.com/ItsCodeBakery/PlantPathalogy/raw/main/Plots/loss_accuracy_curve.png" alt="Training and Validation Curve" width="600"/>
+</p>
+
+#### 🔦 Explainable AI: Grad-CAM
+We utilize **Grad-CAM (Gradient-weighted Class Activation Mapping)** to generate heatmaps. This proves the model's "attention" is correctly localized on the necrotic tissue and leaf lesions, providing a biological basis for its decisions.
+<p align="center">
+  <img src="https://github.com/ItsCodeBakery/PlantPathalogy/blob/main/Plots/gcPlantVillage%20(1).png" alt="Grad-CAM Attention Map" width="600"/>
+</p>
+
+---
