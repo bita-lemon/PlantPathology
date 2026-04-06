@@ -1,6 +1,6 @@
 # PlantCLR: Leveraging Self-Supervised Contrastive Learning for Generalizable Plant Disease Detection
 
-[![Paper:](https://img.shields.io/badge/Paper-Under%20Review-yellow.svg)]([https://github.com/ItsCodeBakery/PlantPathology](https://www.nature.com/articles/s41598-026-45684-x))
+[![DOI](https://img.shields.io/badge/DOI-10.1038/s41598--026--45684--x-blue)](https://doi.org/10.1038/s41598-026-45684-x)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-ee4c2c.svg)](https://pytorch.org/)
