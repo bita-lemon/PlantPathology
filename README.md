@@ -7,7 +7,7 @@
 
 Official implementation of the **PlantCLR** framework. This repository provides a scalable, self-supervised pipeline for agricultural AI, focusing on feature extraction from unlabeled data to improve diagnostic accuracy in low-resource settings.
 
-> **Note**: This repository is actively maintained. Code and pretrained weights will be released upon acceptance.
+> **Note**: This repository is actively maintained. 
 
 ---
 
