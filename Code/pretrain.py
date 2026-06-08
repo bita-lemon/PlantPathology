@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from config_ssl import config
 from data_loader_ssl import get_ssl_dataloader
 from ssl_encoder import SSLEncoder
-from SimCLR_CNNClassifier import SimCLR_CNNClassifier as SimCLR
+from SimCLR_CNNClassifier import SimCLR
 from ssl_loss import NTXentLoss
 from utils import set_seed
 

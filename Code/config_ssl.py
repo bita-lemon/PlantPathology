@@ -1,7 +1,7 @@
 # config_ssl.py
 class SSLConfig:
     # مسیر دیتاست
-    dataset_path = '/kaggle/input/datasets/abdallahalidev/plantvillage-dataset/color'
+    dataset_path = '/kaggle/input/datasets/nirmalsankalana/cassava-leaf-disease-classification/data'
     
     # تنظیمات مدل
     img_size = 224
