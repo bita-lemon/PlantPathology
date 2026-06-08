@@ -16,7 +16,7 @@ def phase1_pretrain():
     print("="*60)
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    set_seed(config.seed)
+    set_seed(42)
     
     # دیتالودر
     train_loader = get_ssl_dataloader(config.dataset_path, config.batch_size)
