@@ -10,7 +10,7 @@ def train_model():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Device: {device}")
 
-    # بارگذاری دیتا (بدون نیاز به مسیر جداگانه train/test)
+    
     train_loader, val_loader, class_names = get_dataloaders(
         batch_size=32,
         img_size=224,
