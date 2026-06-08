@@ -10,7 +10,7 @@ class UnlabeledDataset(Dataset):
         self.root = root
         self.image_paths = []
         
-        # فقط مسیر تصاویر - بدون برچسب!
+        
         for class_name in os.listdir(root):
             class_path = os.path.join(root, class_name)
             if os.path.isdir(class_path):

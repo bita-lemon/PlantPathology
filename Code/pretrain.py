@@ -25,7 +25,7 @@ def phase1_pretrain():
     encoder = SSLEncoder(feature_dim=config.feature_dim)
     model = SimCLR(encoder, projection_dim=config.projection_dim).to(device)
     
-    # بهینه‌ساز و損失
+    
     optimizer = torch.optim.SGD(model.parameters(), lr=config.learning_rate,
                                  momentum=config.momentum, weight_decay=config.weight_decay)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=config.epochs)
