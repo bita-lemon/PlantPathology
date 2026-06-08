@@ -10,7 +10,7 @@ class SSLConfig:
     
     # تنظیمات آموزش
     batch_size = 32
-    epochs = 50
+    epochs = 30
     learning_rate = 0.01
     momentum = 0.9
     weight_decay = 1e-4
