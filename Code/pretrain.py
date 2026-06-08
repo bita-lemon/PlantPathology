@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 from config_ssl import config
 from data_loader_ssl import get_ssl_dataloader
 from ssl_encoder import SSLEncoder
-from simclr_model import SimCLR
+from SimCLR_CNNClassifier import SimCLR_CNNClassifier as SimCLR
 from ssl_loss import NTXentLoss
-from utils_ssl import set_seed
+from utils import set_seed
 
 def phase1_pretrain():
     print("\n" + "="*60)
